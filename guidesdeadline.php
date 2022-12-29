@@ -168,7 +168,7 @@
     <div class="container">
         <h3>Bagaimana cara menentukan tenggat waktu?</h3>
         <br>
-        <p>Secara default, durasi polling di StrawPoll tidak dibatasi. 
+        <p>Secara default, durasi polling di MyPoll tidak dibatasi. 
             Untuk membatasi pemungutan suara berdasarkan tanggal atau untuk mendorong keterlibatan pemilih, 
             semua jajak pendapat kami mungkin memiliki tenggat waktu. 
             Dalam tutorial singkat ini kami tunjukkan cara menambahkan tenggat waktu ke jajak pendapat Anda.</p>
