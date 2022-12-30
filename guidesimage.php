@@ -56,7 +56,7 @@
     font-family: "Ubuntu";
     background-image: url(dist/img/bghelpcenter4.jpeg);
     background-size: cover;
-    height: 550px;
+    height: flex;
     text-align: center;
     font-size: 20px;
 }
@@ -156,8 +156,8 @@
     </button>  
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav ml-auto">
-        <a class="nav-item nav-link active" href="home.php">Home <span class="sr-only">(current)</span></a>
-        <a class="nav-item nav-link active" href="#">ABOUT</a>
+        <a class="nav-item nav-link active" href="home.php">Beranda <span class="sr-only">(current)</span></a>
+        <a class="nav-item nav-link active" href="#">TENTANG KAMI</a>
         <a class="btn button-rounded" href="login.php">LOGIN</a>
       </div>      
     </div>
@@ -166,17 +166,20 @@
 <!-- jumbotron -->
 <div class="jumbotron jumbotron-fluid">
     <div class="container">
-        <h3>Guides Overview</h3>
+        <h3>Bagaimana cara mengunggah gambar ke polling?</h3>
         <br>
-        <p>At MyPoll, we put together a list of helpful articles on topics that might not be easy to find out. 
-            Check out the list below for advanced features for your polls.</p>
+        <p>Mengunggah gambar untuk membuat jajak pendapat Anda lebih menarik bagi pemilih Anda di MyPoll.</p>
+            <br>
         <div class="text-justify">
-            <h4>List of Guides</h4>
-            <u><p><a href="http://localhost:8080/e_voting2/guidesdeadline.php" style="color:black">1. How to set a deadline for your poll</a></p></u>
-            <u><p><a href="http://localhost:8080/e_voting2/guidesimage.php" style="color:black">2. How to add an image to your poll</a></p></u>
-            <u><p><a href="" style="color:black">3. How to delete a poll</a></p></u>
+            <h4>Langkah 1: Buka Master Data - Data Kandidat - Klik Tambah Data</h4>
         </div>
-            
+        <br>
+            <img src="dist/img/setimg.png" style="height:500px;"><br>
+            <br>
+        <div class="text-justify">
+            <h4>Informasi Tambahan</h4>
+            <p>Setelah mengunggah gambar, gambar pratinjau akan ditampilkan. Setelah polling dibuat, gambar akan ditempatkan di antara judul dan opsi jawaban.</p>
+        </div>
     </div>
 </div>
  <!-- end jumbotron -->
@@ -199,7 +202,7 @@
           <div class="wrapper-col-2">
             <h1>Support</h1>
             <a href="http://localhost:8080/e_voting2/helpcenter.php">Help Center</a>
-            <a href="">Guides</a>
+            <a href="http://localhost:8080/e_voting2/guides.php">Guides</a>
             <a href="http://localhost:8080/e_voting2/faq.php">FAQ</a>
           </div>
         </div>
