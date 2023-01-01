@@ -156,9 +156,8 @@
     </button>  
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav ml-auto">
-        <a class="nav-item nav-link active" href="home.php">Home <span class="sr-only">(current)</span></a>
-        <a class="nav-item nav-link active" href="#">ABOUT</a>
-        <a class="btn button-rounded" href="login.php">LOGIN</a>
+      <a class="nav-item nav-link active" href="login.php">LOGIN <span class="sr-only">(current)</span></a>
+        <a class="btn button-rounded" href="add_pengguna.php">DAFTAR</a>
       </div>      
     </div>
   </div>
@@ -166,15 +165,13 @@
 <!-- jumbotron -->
 <div class="jumbotron jumbotron-fluid">
     <div class="container">
-        <h3>Get Started With MyPoll</h3>
+        <h3>Memulai Dengan MyPoll</h3>
         <br>
-        <p>Welcome to our Help Center! We try to cover as many topics as possible from the creation of the MyPoll 
-            to the documentation of special features of MyPoll. 
-        If you're completely new to MyPoll, we recommend you to reading the <u><a href="example.php" style="color:black">how to create your first poll </a></u>
-        on MyPoll. In addition, 
-        the answers to the most common questions are listed on the <u><a href="http://localhost:8080/skripsi/faq.php" style="color:black">F.A.Q.</a></u> page.
+        <p>Selamat datang di Pusat Bantuan kami! Kami mencoba untuk membahas sebanyak mungkin topik mulai dari pembuatan MyPoll hingga dokumentasi fitur-fitur khusus MyPoll. 
+          Jika Anda benar-benar baru di MyPoll, kami menyarankan Anda untuk membaca <u><a href="example.php" style="color:black">bagaimana cara membuat polling pertama Anda </a></u>
+          di MyPoll. Selain itu, jawaban atas pertanyaan paling umum dicantumkan di halaman <u><a href="http://localhost:8080/skripsi/faq.php" style="color:black">F.A.Q.</a></u> 
         </p>
-        <p>If you still have a question or need help, please contact our community on our <u><a href="http://localhost:8080/skripsi/contact.php" style="color:black">Contact Us</a></u> via email.</p>
+        <p>Jika Anda masih memiliki pertanyaan atau butuh bantuan, silakan hubungi komunitas kami di <u><a href="http://localhost:8080/skripsi/contact.php" style="color:black">Hubungi kami</a></u> melalui email.</p>
     </div>
 </div>
  <!-- end jumbotron -->
@@ -183,13 +180,13 @@
   <section class="section-footer">
     <footer>
       <div class="row">
-        <div class="col">
+      <div class="col">
           <div class="wrapper-col-1">
             <h1><img src="dist/img/gitacorp.png" width="30" height="30" alt=""> MyPoll</h1>
-            <p>Making it easy to create instant and real time polls for free</p>
+            <p>Memudahkan pembuatan polling instan dan real-time secara gratis</p>
             <div class="wrapper-icon">
-              <a href="https://www.instagram.com/gitaairlangga/" class="fa fa-instagram" style="font-size:30px; color:red;"></a>
-              <a href="https://twitter.com/gitaairlangga/" class="fa fa-twitter" style="font-size:30px;"></a>
+              <a href="https://www.instagram.com/mypollid/" class="fa fa-instagram" style="font-size:30px; color:red;"></a>
+                            <!--<a href="https://twitter.com/gitaairlangga/" class="fa fa-twitter" style="font-size:30px;"></a> -->
             </div>
           </div>
         </div>

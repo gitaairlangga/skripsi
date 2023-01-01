@@ -148,7 +148,7 @@
 <!-- navbar -->
 <nav class="navbar navbar-expand-lg navbar-light" style="background-color: white;">
   <div class="container">
-    <a class="navbar-brand" href="http://localhost:8080/e_voting2/home.php">
+    <a class="navbar-brand" href="http://localhost:8080/skripsi/home.php">
     <img src="dist/img/gitacorp.png" width="30" height="30" alt="" loading="lazy">MyPoll
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -157,7 +157,6 @@
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav ml-auto">
         <a class="nav-item nav-link active" href="home.php">Home <span class="sr-only">(current)</span></a>
-        <a class="nav-item nav-link active" href="#">ABOUT</a>
         <a class="btn button-rounded" href="login.php">LOGIN</a>
       </div>      
     </div>
@@ -166,20 +165,20 @@
 <!-- jumbotron -->
 <div class="jumbotron jumbotron-fluid">
     <div class="container">
-        <h3>Terms of Service</h3>
+        <h3>Ketentuan Layanan</h3>
         <hr>
         <br>
-        <p>Disclaimer: The content of user-generated polls is neither created nor endorsed by MyPoll. If you want to report any offensive content,
-          please email us in <u><a href="http://localhost:8080/e_voting2/contact.php" style="color:black">Contact</a></u> we will follow up your requested.</p>
+        <p>Disclaimer: Konten jajak pendapat yang dibuat pengguna tidak dibuat atau didukung oleh MyPoll. Jika Anda ingin melaporkan konten yang menyinggung,
+        silakan kirim email kepada kami di <u><a href="http://localhost:8080/skripsi/contact.php" style="color:black">Kontak</a></u> kami akan menindaklanjuti permintaan Anda.</p>
           <br>
         <div class="text-justify">
-            <h4>Rules</h4>        
-            <p>Our rules are quite simple. Create polls, show your opinion and have fun! But don't try to verbally hurt others, 
-                embarrass others or even put their names in a bad context.</p>
-            <p>1. Do not create any polls or meetings that contain illegal, abusive or offensive information.</p>
-            <p>2. Do not respond with illegal, abusive or offensive comments.</p>
-            <p>3. You are solely responsible for the content you are putting on MyPoll.</p>
-            <p>4. If you break the rules in a very bad manner, we have no problem to cooperate with law enforcement in your country.</p>
+            <h4>Aturan</h4>        
+            <p>Aturan kami cukup sederhana. Buat jajak pendapat, tunjukkan pendapat Anda dan bersenang-senanglah! Namun, 
+              jangan mencoba untuk menyakiti orang lain secara verbal, mempermalukan orang lain, atau bahkan menempatkan nama mereka dalam konteks yang buruk.</p>
+            <p>1. Jangan membuat jajak pendapat atau pertemuan apa pun yang berisi informasi ilegal, kasar, atau menghina.</p>
+            <p>2. Jangan menanggapi dengan komentar ilegal, kasar, atau menyinggung.</p>
+            <p>3. Anda sepenuhnya bertanggung jawab atas konten yang Anda tampilkan di MyPoll.</p>
+            <p>4. Jika Anda melanggar peraturan dengan cara yang sangat buruk, kami tidak memiliki masalah untuk bekerja sama dengan penegak hukum di negara Anda.</p>
         </div>
 
     </div>
@@ -191,34 +190,34 @@
     <footer>
       <div class="row">
         <div class="col">
-          <div class="wrapper-col-1">
-            <h1><img src="dist/img/gitacorp.png" width="30" height="30" alt=""> MyPoll</h1>
-            <p>Making it easy to create instant and real time polls for free</p>
-            <div class="wrapper-icon">
-              <a href="https://www.instagram.com/gitaairlangga/" class="fa fa-instagram" style="font-size:30px; color:red;"></a>
-              <a href="https://twitter.com/gitaairlangga/" class="fa fa-twitter" style="font-size:30px;"></a>
+            <div class="wrapper-col-1">
+              <h1><img src="dist/img/gitacorp.png" width="30" height="30" alt=""> MyPoll</h1>
+              <p>Memudahkan pembuatan polling instan dan real-time secara gratis</p>
+              <div class="wrapper-icon">
+                <a href="https://www.instagram.com/mypollid/" class="fa fa-instagram" style="font-size:30px; color:red;"></a>
+                              <!--<a href="https://twitter.com/gitaairlangga/" class="fa fa-twitter" style="font-size:30px;"></a> -->
+              </div>
             </div>
-          </div>
         </div>
         <div class="col">
           <div class="wrapper-col-2">
             <h1>Support</h1>
-            <a href="http://localhost:8080/e_voting2/helpcenter.php">Help Center</a>
-            <a href="http://localhost:8080/e_voting2/guides.php">Guides</a>
-            <a href="http://localhost:8080/e_voting2/faq.php">FAQ</a>
+            <a href="http://localhost:8080/skripsi/helpcenter.php">Help Center</a>
+            <a href="http://localhost:8080/skripsi/guides.php">Guides</a>
+            <a href="http://localhost:8080/skripsi/faq.php">FAQ</a>
           </div>
         </div>
         <div class="col">
           <div class="wrapper-col-3">
               <h1>Information</h1>
-              <a href="http://localhost:8080/e_voting2/about.php">About</a>
-              <a href="http://localhost:8080/e_voting2/contact.php">Contact</a>          
+              <a href="http://localhost:8080/skripsi/about.php">About</a>
+              <a href="http://localhost:8080/skripsi/contact.php">Contact</a>          
           </div>
         </div>
         <div class="col">
           <div class="wrapper-col-4">
               <h1>Legal</h1>
-              <a href="http://localhost:8080/e_voting2/terms.php">Terms</a>          
+              <a href="http://localhost:8080/skripsi/terms.php">Terms</a>          
           </div>
         </div>
         </div>

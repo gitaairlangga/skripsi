@@ -195,7 +195,7 @@
             <p>Memudahkan pembuatan polling instan dan real-time secara gratis</p>
             <div class="wrapper-icon">
               <a href="https://www.instagram.com/mypollid/" class="fa fa-instagram" style="font-size:30px; color:red;"></a>
-              <a href="https://twitter.com/gitaairlangga/" class="fa fa-twitter" style="font-size:30px;"></a>
+                            <!--<a href="https://twitter.com/gitaairlangga/" class="fa fa-twitter" style="font-size:30px;"></a> -->
             </div>
           </div>
         </div>

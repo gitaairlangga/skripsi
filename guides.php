@@ -148,7 +148,7 @@
 <!-- navbar -->
 <nav class="navbar navbar-expand-lg navbar-light" style="background-color: white;">
   <div class="container">
-    <a class="navbar-brand" href="http://localhost:8080/e_voting2/home.php">
+    <a class="navbar-brand" href="http://localhost:8080/skripsi/home.php">
     <img src="dist/img/gitacorp.png" width="30" height="30" alt="" loading="lazy">MyPoll
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -156,9 +156,8 @@
     </button>  
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav ml-auto">
-        <a class="nav-item nav-link active" href="home.php">Home <span class="sr-only">(current)</span></a>
-        <a class="nav-item nav-link active" href="#">ABOUT</a>
-        <a class="btn button-rounded" href="login.php">LOGIN</a>
+      <a class="nav-item nav-link active" href="login.php">LOGIN <span class="sr-only">(current)</span></a>
+        <a class="btn button-rounded" href="add_pengguna.php">DAFTAR</a>
       </div>      
     </div>
   </div>
@@ -166,15 +165,15 @@
 <!-- jumbotron -->
 <div class="jumbotron jumbotron-fluid">
     <div class="container">
-        <h3>Guides Overview</h3>
+        <h3>Panduan</h3>
         <br>
-        <p>At MyPoll, we put together a list of helpful articles on topics that might not be easy to find out. 
-            Check out the list below for advanced features for your polls.</p>
+        <p>Di MyPoll, kami menyusun daftar artikel yang bermanfaat tentang topik yang mungkin tidak mudah ditemukan. 
+          Lihat daftar di bawah ini untuk mengetahui fitur-fitur lanjutan untuk membantu Anda.</p>
         <div class="text-justify">
-            <h4>List of Guides</h4>
-            <u><p><a href="http://localhost:8080/e_voting2/guidesdeadline.php" style="color:black">1. How to set a deadline for your poll</a></p></u>
-            <u><p><a href="http://localhost:8080/e_voting2/guidesimage.php" style="color:black">2. How to add an image to your poll</a></p></u>
-            <u><p><a href="" style="color:black">3. How to delete a poll</a></p></u>
+            <h4>Daftar Panduan</h4>
+            <u><p><a href="http://localhost:8080/skripsi/guidesdeadline.php" style="color:black">1. Bagaimana cara menetapkan tenggat waktu polling Anda</a></p></u>
+            <u><p><a href="http://localhost:8080/skripsi/guidesimage.php" style="color:black">2. Bagaimana cara menambahkan gambar ke polling Anda</a></p></u>
+            <u><p><a href="" style="color:black">3. Bagaimana cara menghapus polling</a></p></u>
         </div>
             
     </div>
@@ -188,32 +187,32 @@
         <div class="col">
           <div class="wrapper-col-1">
             <h1><img src="dist/img/gitacorp.png" width="30" height="30" alt=""> MyPoll</h1>
-            <p>Making it easy to create instant and real time polls for free</p>
+            <p>Memudahkan pembuatan polling instan dan real-time secara gratis</p>
             <div class="wrapper-icon">
-              <a href="https://www.instagram.com/gitaairlangga/" class="fa fa-instagram" style="font-size:30px; color:red;"></a>
-              <a href="https://twitter.com/gitaairlangga/" class="fa fa-twitter" style="font-size:30px;"></a>
+              <a href="https://www.instagram.com/mypollid/" class="fa fa-instagram" style="font-size:30px; color:red;"></a>
+              <!--<a href="https://twitter.com/gitaairlangga/" class="fa fa-twitter" style="font-size:30px;"></a> -->
             </div>
           </div>
         </div>
         <div class="col">
           <div class="wrapper-col-2">
             <h1>Support</h1>
-            <a href="http://localhost:8080/e_voting2/helpcenter.php">Help Center</a>
+            <a href="http://localhost:8080/skripsi/helpcenter.php">Help Center</a>
             <a href="">Guides</a>
-            <a href="http://localhost:8080/e_voting2/faq.php">FAQ</a>
+            <a href="http://localhost:8080/skripsi/faq.php">FAQ</a>
           </div>
         </div>
         <div class="col">
           <div class="wrapper-col-3">
               <h1>Information</h1>
-              <a href="http://localhost:8080/e_voting2/about.php">About</a>
-              <a href="http://localhost:8080/e_voting2/contact.php">Contact</a>          
+              <a href="http://localhost:8080/skripsi/about.php">About</a>
+              <a href="http://localhost:8080/skripsi/contact.php">Contact</a>          
           </div>
         </div>
         <div class="col">
           <div class="wrapper-col-4">
               <h1>Legal</h1>
-              <a href="http://localhost:8080/e_voting2/terms.php">Terms</a>          
+              <a href="http://localhost:8080/skripsi/terms.php">Terms</a>          
           </div>
         </div>
         </div>

@@ -56,7 +56,7 @@
     font-family: "Ubuntu";
     background-image: url(dist/img/bghelpcenter4.jpeg);
     background-size: cover;
-    height: 550px;
+    height: flex;
     text-align: center;
     font-size: 18px;
 }
@@ -148,7 +148,7 @@
 <!-- navbar -->
 <nav class="navbar navbar-expand-lg navbar-light" style="background-color: white;">
   <div class="container">
-    <a class="navbar-brand" href="http://localhost:8080/e_voting2/home.php">
+    <a class="navbar-brand" href="http://localhost:8080/skripsi/home.php">
     <img src="dist/img/gitacorp.png" width="30" height="30" alt="" loading="lazy">MyPoll
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -156,27 +156,23 @@
     </button>  
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav ml-auto">
-        <a class="nav-item nav-link active" href="home.php">Home <span class="sr-only">(current)</span></a>
-        <a class="nav-item nav-link active" href="#">ABOUT</a>
-        <a class="btn button-rounded" href="login.php">LOGIN</a>
+      <a class="nav-item nav-link active" href="login.php">LOGIN <span class="sr-only">(current)</span></a>
+        <a class="btn button-rounded" href="add_pengguna.php">DAFTAR</a>
       </div>      
     </div>
   </div>
 </nav>
 <!-- jumbotron -->
 <div class="jumbotron jumbotron-fluid">
-        <h3>Contact Us</h3>
+        <h3>Kontak Kami</h3>
         <hr>
         <br>
         <div class="container">
-            <p>The best way to contact us is by sending an email to the address below:</p>
-
-            <h4>Support</h4>
-            <p>Contact: Gita Airlangga Murti</p>
-            <p><u><a href="" style="color:black">Email: mypollid@gmail.com</a></u> </p>
-
+            <p>Cara terbaik untuk menghubungi kami adalah dengan mengirim email ke alamat di bawah ini:</p>
+              <br>
+              <br>
             <h4>General Inquiries</h4>
-            <p>Contact: Gita Airlangga Murti</p>
+            <p>Kontak: Gita Airlangga Murti</p>
             <p><u><a href="" style="color:black">Email: mypollid@gmail.com</a></u></p>
         </div>
 </div>
@@ -187,34 +183,34 @@
     <footer>
       <div class="row">
         <div class="col">
-          <div class="wrapper-col-1">
-            <h1><img src="dist/img/gitacorp.png" width="30" height="30" alt=""> MyPoll</h1>
-            <p>Making it easy to create instant and real time polls for free</p>
-            <div class="wrapper-icon">
-              <a href="https://www.instagram.com/gitaairlangga/" class="fa fa-instagram" style="font-size:30px; color:red;"></a>
-              <a href="https://twitter.com/gitaairlangga/" class="fa fa-twitter" style="font-size:30px;"></a>
+            <div class="wrapper-col-1">
+              <h1><img src="dist/img/gitacorp.png" width="30" height="30" alt=""> MyPoll</h1>
+              <p>Memudahkan pembuatan polling instan dan real-time secara gratis</p>
+              <div class="wrapper-icon">
+                <a href="https://www.instagram.com/mypollid/" class="fa fa-instagram" style="font-size:30px; color:red;"></a>
+                              <!--<a href="https://twitter.com/gitaairlangga/" class="fa fa-twitter" style="font-size:30px;"></a> -->
+              </div>
             </div>
-          </div>
         </div>
         <div class="col">
           <div class="wrapper-col-2">
             <h1>Support</h1>
-            <a href="http://localhost:8080/e_voting2/helpcenter.php">Help Center</a>
-            <a href="http://localhost:8080/e_voting2/guides.php">Guides</a>
-            <a href="http://localhost:8080/e_voting2/faq.php">FAQ</a>
+            <a href="http://localhost:8080/skripsi/helpcenter.php">Help Center</a>
+            <a href="http://localhost:8080/skripsi/guides.php">Guides</a>
+            <a href="http://localhost:8080/skripsi/faq.php">FAQ</a>
           </div>
         </div>
         <div class="col">
           <div class="wrapper-col-3">
               <h1>Information</h1>
-              <a href="http://localhost:8080/e_voting2/about.php">About</a>
-              <a href="http://localhost:8080/e_voting2/contact.php">Contact</a>          
+              <a href="http://localhost:8080/skripsi/about.php">About</a>
+              <a href="http://localhost:8080/skripsi/contact.php">Contact</a>          
           </div>
         </div>
         <div class="col">
           <div class="wrapper-col-4">
               <h1>Legal</h1>
-              <a href="http://localhost:8080/e_voting2/terms.php">Terms</a>          
+              <a href="http://localhost:8080/skripsi/terms.php">Terms</a>          
           </div>
         </div>
         </div>

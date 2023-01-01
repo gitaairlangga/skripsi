@@ -56,7 +56,7 @@
     font-family: "Ubuntu";
     background-image: url(dist/img/bghelpcenter4.jpeg);
     background-size: cover;
-    height: 950px;
+    height: flex;
     text-align: center;
     font-size: 20px;
 }
@@ -148,7 +148,7 @@
 <!-- navbar -->
 <nav class="navbar navbar-expand-lg navbar-light" style="background-color: white;">
   <div class="container">
-    <a class="navbar-brand" href="http://localhost:8080/e_voting2/home.php">
+    <a class="navbar-brand" href="http://localhost:8080/skripsi/home.php">
     <img src="dist/img/gitacorp.png" width="30" height="30" alt="" loading="lazy">MyPoll
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -156,9 +156,8 @@
     </button>  
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav ml-auto">
-        <a class="nav-item nav-link active" href="home.php">Home <span class="sr-only">(current)</span></a>
-        <a class="nav-item nav-link active" href="#">ABOUT</a>
-        <a class="btn button-rounded" href="login.php">LOGIN</a>
+      <a class="nav-item nav-link active" href="login.php">LOGIN <span class="sr-only">(current)</span></a>
+        <a class="btn button-rounded" href="add_pengguna.php">DAFTAR</a>
       </div>      
     </div>
   </div>
@@ -169,23 +168,17 @@
         <hr>
         <br>
         <div class="container">
-            <p>Is MyPoll free of charge?</p>
-            <p class="text-justify">Yes, the entire MyPoll offer is available free of charge. Currently, we are financed exclusively by advertising revenue, 
-                which we display to the participants of votes to a reasonable extent. 
-                We believe that essential features of the site should never be limited by the introduction of premium content. 
-                Although an option to disable advertising for participants by paying a fee may be available in the near future.</p>
+            <p>Apakah MyPoll gratis?</p>
+            <p class="text-justify">Ya, seluruh penawaran MyPoll tersedia gratis. 
+              Kami percaya bahwa fitur penting situs tidak boleh dibatasi oleh pengenalan konten premium. 
+              Meskipun opsi untuk menonaktifkan iklan bagi peserta dengan membayar biaya mungkin akan tersedia dalam waktu dekat.</p>
                 <hr>
-            <p>How many participants can vote in a poll?</p>
-            <p class="text-justify">There is no limit to the number of participants on MyPoll. 
-                We have already successfully conducted polls with several hundred thousand participants.</p>
+            <p>Berapa banyak peserta yang dapat memilih dalam poling?</p>
+            <p class="text-justify">Tidak ada batasan jumlah peserta di MyPoll. 
+              Namun jika semakin banyak peserta yang didaftarkan maka akan memberikan dampak kepada website ini seperti akan terjadi "Lagging" pada saat menjalankan website ini.</p>
                 <hr>
-            <p>Can participants edit their choice after voting?</p>
-            <p class="text-justify">It depends on what setting the creator of the poll has chosen for it. In general, 
-                it is only possible to edit the vote if the participant has included his name..</p>
-                <hr>
-            <p>Can participants edit their choice after voting?</p>
-            <p class="text-justify">It depends on what setting the creator of the poll has chosen for it. In general, 
-                it is only possible to edit the vote if the participant has included his name..</p>
+            <p>Bisakah peserta mengedit pilihannya setelah voting?</p>
+            <p class="text-justify">Peserta tidak dapat mengedit pilihannya setelah voting, maka dari itu gunakan hak voting anda dengan baik.</p>
                 <hr>
         </div>
 </div>
@@ -198,32 +191,32 @@
         <div class="col">
           <div class="wrapper-col-1">
             <h1><img src="dist/img/gitacorp.png" width="30" height="30" alt=""> MyPoll</h1>
-            <p>Making it easy to create instant and real time polls for free</p>
+            <p>Memudahkan pembuatan polling instan dan real-time secara gratis</p>
             <div class="wrapper-icon">
-              <a href="https://www.instagram.com/gitaairlangga/" class="fa fa-instagram" style="font-size:30px; color:red;"></a>
-              <a href="https://twitter.com/gitaairlangga/" class="fa fa-twitter" style="font-size:30px;"></a>
+              <a href="https://www.instagram.com/mypollid/" class="fa fa-instagram" style="font-size:30px; color:red;"></a>
+              <!--<a href="https://twitter.com/gitaairlangga/" class="fa fa-twitter" style="font-size:30px;"></a> -->
             </div>
           </div>
         </div>
         <div class="col">
           <div class="wrapper-col-2">
             <h1>Support</h1>
-            <a href="http://localhost:8080/e_voting2/helpcenter.php">Help Center</a>
-            <a href="http://localhost:8080/e_voting2/guides.php">Guides</a>
-            <a href="http://localhost:8080/e_voting2/faq.php">FAQ</a>
+            <a href="http://localhost:8080/skripsi/helpcenter.php">Help Center</a>
+            <a href="http://localhost:8080/skripsi/guides.php">Guides</a>
+            <a href="http://localhost:8080/skripsi/faq.php">FAQ</a>
           </div>
         </div>
         <div class="col">
           <div class="wrapper-col-3">
               <h1>Information</h1>
-              <a href="http://localhost:8080/e_voting2/about.php">About</a>
-              <a href="http://localhost:8080/e_voting2/contact.php">Contact</a>          
+              <a href="http://localhost:8080/skripsi/about.php">About</a>
+              <a href="http://localhost:8080/skripsi/contact.php">Contact</a>          
           </div>
         </div>
         <div class="col">
           <div class="wrapper-col-4">
               <h1>Legal</h1>
-              <a href="http://localhost:8080/e_voting2/terms.php">Terms</a>          
+              <a href="http://localhost:8080/skripsi/terms.php">Terms</a>          
           </div>
         </div>
         </div>
