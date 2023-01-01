@@ -56,7 +56,7 @@
     font-family: "Ubuntu";
     background-image: url(dist/img/bghelpcenter4.jpeg);
     background-size: cover;
-    height: 750px;
+    height: flex;
     text-align: center;
     font-size: 20px;
 }
@@ -148,7 +148,7 @@
 <!-- navbar -->
 <nav class="navbar navbar-expand-lg navbar-light" style="background-color: white;">
   <div class="container">
-    <a class="navbar-brand" href="http://localhost:8080/e_voting2/home.php">
+    <a class="navbar-brand" href="http://localhost:8080/skripsi/home.php">
     <img src="dist/img/gitacorp.png" width="30" height="30" alt="" loading="lazy">MyPoll
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -172,9 +172,9 @@
             to the documentation of special features of MyPoll. 
         If you're completely new to MyPoll, we recommend you to reading the <u><a href="example.php" style="color:black">how to create your first poll </a></u>
         on MyPoll. In addition, 
-        the answers to the most commong questions are listed on the <u><a href="http://localhost:8080/e_voting2/faq.php" style="color:black">F.A.Q.</a></u> page.
+        the answers to the most common questions are listed on the <u><a href="http://localhost:8080/skripsi/faq.php" style="color:black">F.A.Q.</a></u> page.
         </p>
-        <p>If you still have a question or need help, please contact our community on our <u><a href="http://localhost:8080/e_voting2/contact.php" style="color:black">Contact Us</a></u> via email.</p>
+        <p>If you still have a question or need help, please contact our community on our <u><a href="http://localhost:8080/skripsi/contact.php" style="color:black">Contact Us</a></u> via email.</p>
     </div>
 </div>
  <!-- end jumbotron -->
@@ -196,22 +196,22 @@
         <div class="col">
           <div class="wrapper-col-2">
             <h1>Support</h1>
-            <a href="http://localhost:8080/e_voting2/helpcenter.php">Help Center</a>
-            <a href="http://localhost:8080/e_voting2/guides.php">Guides</a>
-            <a href="http://localhost:8080/e_voting2/faq.php">FAQ</a>
+            <a href="http://localhost:8080/skripsi/helpcenter.php">Help Center</a>
+            <a href="http://localhost:8080/skripsi/guides.php">Guides</a>
+            <a href="http://localhost:8080/skripsi/faq.php">FAQ</a>
           </div>
         </div>
         <div class="col">
           <div class="wrapper-col-3">
               <h1>Information</h1>
-              <a href="http://localhost:8080/e_voting2/about.php">About</a>
-              <a href="http://localhost:8080/e_voting2/contact.php">Contact</a>          
+              <a href="http://localhost:8080/skripsi/about.php">About</a>
+              <a href="http://localhost:8080/skripsi/contact.php">Contact</a>          
           </div>
         </div>
         <div class="col">
           <div class="wrapper-col-4">
               <h1>Legal</h1>
-              <a href="http://localhost:8080/e_voting2/terms.php">Terms</a>          
+              <a href="http://localhost:8080/skripsi/terms.php">Terms</a>          
           </div>
         </div>
         </div>

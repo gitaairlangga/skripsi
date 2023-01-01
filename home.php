@@ -155,7 +155,7 @@
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav ml-auto">
         <a class="nav-item nav-link active" href="login.php">LOGIN <span class="sr-only">(current)</span></a>
-        <a class="btn button-rounded" href="add_pengguna.php">SIGN UP</a>
+        <a class="btn button-rounded" href="add_pengguna.php">DAFTAR</a>
       </div>      
     </div>
   </div>
@@ -165,8 +165,8 @@
 
 <div class="jumbotron jumbotron-fluid">
   <div class="container">
-    <h1 class="display-4">Create your poll in seconds</h1><br>
-    <a href="example.php" class="btn btn-secondary tombol">View Examples</a>
+    <h1 class="display-4">Buat polling anda dalam hitungan detik</h1><br>
+    <a href="example.php" class="btn btn-secondary tombol">Lihat Contoh</a>
   </div> 
 
   <div class="container search">
@@ -192,9 +192,9 @@
         <div class="col">
           <div class="wrapper-col-1">
             <h1><img src="dist/img/gitacorp.png" width="30" height="30" alt=""> MyPoll</h1>
-            <p>Making it easy to create instant and real time polls for free</p>
+            <p>Memudahkan pembuatan polling instan dan real-time secara gratis</p>
             <div class="wrapper-icon">
-              <a href="https://www.instagram.com/gitaairlangga/" class="fa fa-instagram" style="font-size:30px; color:red;"></a>
+              <a href="https://www.instagram.com/mypollid/" class="fa fa-instagram" style="font-size:30px; color:red;"></a>
               <a href="https://twitter.com/gitaairlangga/" class="fa fa-twitter" style="font-size:30px;"></a>
             </div>
           </div>
@@ -202,22 +202,22 @@
         <div class="col">
           <div class="wrapper-col-2">
             <h1>Support</h1>
-            <a href="http://localhost:8080/e_voting2/helpcenter.php">Help Center</a>
-            <a href="http://localhost:8080/e_voting2/guides.php">Guides</a>
-            <a href="http://localhost:8080/e_voting2/faq.php">FAQ</a>
+            <a href="http://localhost:8080/skripsi/helpcenter.php">Help Center</a>
+            <a href="http://localhost:8080/skripsi/guides.php">Guides</a>
+            <a href="http://localhost:8080/skripsi/faq.php">FAQ</a>
           </div>
         </div>
         <div class="col">
           <div class="wrapper-col-3">
               <h1>Information</h1>
-              <a href="http://localhost:8080/e_voting2/about.php">About</a>
-              <a href="http://localhost:8080/e_voting2/contact.php">Contact</a>          
+              <a href="http://localhost:8080/skripsi/about.php">About</a>
+              <a href="http://localhost:8080/skripsi/contact.php">Contact</a>          
           </div>
         </div>
         <div class="col">
           <div class="wrapper-col-4">
               <h1>Legal</h1>
-              <a href="http://localhost:8080/e_voting2/terms.php">Terms</a>          
+              <a href="http://localhost:8080/skripsi/terms.php">Terms</a>          
           </div>
         </div>
         </div>

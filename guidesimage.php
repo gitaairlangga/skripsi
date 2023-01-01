@@ -157,7 +157,6 @@
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav ml-auto">
         <a class="nav-item nav-link active" href="home.php">Beranda <span class="sr-only">(current)</span></a>
-        <a class="nav-item nav-link active" href="#">TENTANG KAMI</a>
         <a class="btn button-rounded" href="login.php">LOGIN</a>
       </div>      
     </div>
