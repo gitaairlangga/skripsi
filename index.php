@@ -383,10 +383,10 @@ include "inc/koneksi.php";
 						switch ($hal) {
 						//Klik Halaman Home Pengguna
 							case 'admin':
-								include "home/admin.php";
+								include "level/admin.php";
 								break;
 							case 'pemilih':
-								include "home/pemilih.php";
+								include "level/pemilih.php";
 								break;
 						//End Klik Halaman
 
